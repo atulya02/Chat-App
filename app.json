@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "myApp",
-    "slug": "myApp",
+    "name": "myChat",
+    "slug": "myChat",
     "privacy": "public",
     "sdkVersion": "33.0.0",
     "platforms": [
@@ -11,7 +11,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/chat.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -25,6 +25,13 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.data.myChat"
+    },
+    "description": "",
+    "isDetached": true,
+    "detach": {},
+    "scheme": "exp8203cd8bbd464b1cbbfb205f33f7f929"
   }
 }
